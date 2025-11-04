@@ -15,8 +15,8 @@ export function Providers({ children }: { children: ReactNode }) {
         toastOptions={{
           style: {
             background: 'hsl(var(--background))',
-            border: '1px solid hsl(var(--border))',
-            color: 'hsl(var(--foreground))',
+            border: '1px solid hsl(--border))',
+            color: 'hsl(--foreground))',
             borderRadius: '0.375rem',
             boxShadow:
               '0 10px 25px -2px rgba(0, 0, 0, 0.1)',
